@@ -1,4 +1,5 @@
-import {Friend, Colleague, ColleagueHistory } from './myTypes'
+import type {Friend, Colleague, ColleagueHistory } from './myTypes'
+import  { allOlder } from './02-functions.ts'
 
 const friend1 = {
   name: "Paul Fleming",
@@ -13,7 +14,6 @@ const friend2 = {
 };
 
 export const friends = [friend1, friend2];
-
 
 const colleague1 = {
   name: "Ralph Graham",
@@ -47,3 +47,6 @@ export const colleagues : ColleagueHistory = {
   current: [colleague1, colleague2, colleague3],
   former: [],
 };
+
+console.log(allOlder(friend1));
+console.log(allOlder(friend2));

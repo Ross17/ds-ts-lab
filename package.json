@@ -4,7 +4,7 @@
   "description": "EWD lab work",
   "license": "ISC",
   "author": "roshan k",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
