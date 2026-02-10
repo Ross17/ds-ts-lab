@@ -32,7 +32,7 @@ function makeBuddyList(
 // Tests for makeBuddyList
 const myFootballBuddies = makeBuddyList(
   "Football team",
-  [colleague1, friends[0], colleague2],
+  [colleague1, friends[0], colleague1],
   colleague1
 )
 
